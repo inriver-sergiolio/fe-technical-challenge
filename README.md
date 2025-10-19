@@ -22,6 +22,31 @@ Extend the page that you created for the previous step so that if you click on a
 
 API endpoint for player: [https://api.chess.com/pub/player/{username}](https://api.chess.com/pub/player/john)
 
-## ♟️ Step 3: Add Grandmaster summary
+## ♟️ Step 3: Add Grandmaster summary
 
 On the profile page for a grandmaster that you created in step 2, add a clock that displays the amount of time since they were last online. The time since the user was active should be displayed as HH:MM:SS, and it should update every second.
+
+## 🚀 How to Run
+
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+3. **Open in browser**
+   - Go to `http://localhost:5173` (or the port shown in terminal)
+
+## 📦 Key Packages Used
+
+- **React** - UI framework with modern hooks
+- **TypeScript** - Type safety and better developer experience  
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first styling framework
+- **@material-tailwind/react** - Material Design components
+- **react-router-dom** - Client-side routing
+- **@heroicons/react** - Beautiful SVG icons
