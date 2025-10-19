@@ -25,9 +25,9 @@ const GrandmasterProfile: React.FC = () => {
           try {
             const countryDetails = await fetchCountryDetails(data.country);
             setCountryName(countryDetails.name);
-            console.log('Country Details:', countryDetails);
           } catch (err) {
             // If country fetch fails, use the country code as fallback
+            console.error('Error fetching country details:', err);
             setCountryName(data.country);
           }
         }
